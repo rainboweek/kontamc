@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body {
+background-image: url(../bg.png);
+background-position: center;
+background-size: calc(3400px);
+font-family: 'Poppins', sans-serif;
+
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main {
+    font-size: 70px;
+    color: white;
+}
+.main-span {
+    color: rgb(13, 146, 13);
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.product {
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(46, 141, 8, 0.185);
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+}
+.h1-product {
+    color: white;
+}
+i {
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    background-color: rgba(12, 180, 26, 0.185);
+    padding: 10px;
+    border-radius: 15px;
+    transition: 1s;
+}
+.btn:hover {
+    transform: scale(1.2);
+    color: black;
+    transition: 1s;
+}
+.h2-product {
+    color: rgba(255, 253, 253, 0.568);
+    font-size: 22px;
+}
+h3 {
+    color: rgba(128, 128, 128, 0.582);
+}
+.buy {
+    font-weight: bold;
+    background-color: rgba(12, 180, 26, 0.185);
+    padding: 10px;
+    border-radius: 15px;
+    transition: 1s;
+    font-size: 24px;
+}
+.buy:hover {
+    color: black;
+    transition: 1s;
+}
+.footer {
+    position: absolute;
+    margin-top: 290px;
+}
+.footerall {
+    position: absolute;
+    margin-top: 290px;
+}
+.footer2 {
+    position: absolute;
+    margin-top: 320px;
+}
+.box {
+    width: 600px;
+    height: 750px;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(16, 102, 30, 0.37);
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.box-text {
+    font-weight: 100;
+    color: white;
+    margin-left: 10px;
+font-size: 20px;
+}
+.poli {
+    margin-left: 170px;
+}
+@media (max-width: 1568px) {
+    .products {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .product {
+        text-align: center;
+        justify-content: space-around;
+        background-color: rgba(46, 141, 8, 0.185);
+        width: 480px;
+        height: 380px;
+        border-radius: 30px;
+    }
+    .btn {
+        background-color: rgba(12, 180, 26, 0.185);
+        padding: 10px;
+        border-radius: 15px;
+        transition: 1s;
+    }
+    .buy {
+        font-weight: bold;
+        background-color: rgba(12, 180, 26, 0.185);
+        padding: 10px;
+        border-radius: 15px;
+        transition: 1s;
+        font-size: 24px;
+    }
+    .h2-product {
+        color: rgba(255, 253, 253, 0.568) !important;
+        font-size: 18px;
+    }
+    .h1-product {
+        color: white;
+        font-size: 20px;
+    }
+    .footerall {
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 500px;
+    }
+    .product + .product {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 728px) {
+    .products {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .product {
+        text-align: center;
+        justify-content: space-around;
+        background-color: rgba(46, 141, 8, 0.185);
+        width: 380px;
+        height: 380px;
+        border-radius: 30px;
+    }
+    .btn {
+        background-color: rgba(12, 180, 26, 0.185);
+        padding: 5px;
+        border-radius: 15px;
+        transition: 1s;
+    }
+    .buy {
+        font-weight: bold;
+        background-color: rgba(12, 180, 26, 0.185);
+        padding: 5px;
+        border-radius: 15px;
+        transition: 1s;
+        font-size: 18px;
+    }
+    .h2-product {
+        color: rgba(255, 253, 253, 0.568) !important;
+        font-size: 18px;
+    }
+    .h1-product {
+        color: white;
+        font-size: 20px;
+    }
+    .footerall {
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 500px;
+    }
+    .product + .product {
+        margin-top: 20px;
+    }
+}
